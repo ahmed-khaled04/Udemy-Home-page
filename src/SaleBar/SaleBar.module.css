@@ -1,0 +1,37 @@
+.saleBar {
+  width: 100vw !important;
+  margin-left: calc(50% - 50vw);  /* forces full-width even inside a container */
+  margin-right: calc(50% - 50vw);
+  margin-top: 0 !important ;
+  background: #caeef1;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.text {
+  margin: 0;
+  font-size: 18px;
+  color: #1c1c1c;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(130, 160, 200, 0.3);
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.closeBtn:hover {
+  background: rgba(100, 130, 180, 0.4);
+}

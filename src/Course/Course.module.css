@@ -1,0 +1,93 @@
+.courseCard {
+  width: 320px;
+  min-width: 320px !important;
+  max-width: 320px !important;
+  flex-shrink: 0 !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding-bottom: 20px;
+  cursor: pointer;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.courseCard:hover {
+  background-color: #aeaeae2e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.courseImg {
+  width: 100%;
+  height: 160px;
+  object-fit:none;
+}
+
+.courseContent {
+  padding: 15px;
+  justify-self: flex-end;
+}
+
+.courseContent::-webkit-scrollbar {
+  display: none;
+}
+
+.courseTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1c1d1f;
+  margin-bottom: 6px;
+}
+
+.courseInstructor {
+  color: #6a6f73;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.courseExtra {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.courseBadge {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.courseRating {
+  font-size: 0.9rem;
+  color: #1c1d1f;
+}
+
+.courseRating .count {
+  color: #6a6f73;
+  margin-left: 2px;
+}
+
+.coursePrice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.newPrice {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.oldPrice {
+  color: #6a6f73;
+  text-decoration: line-through;
+}

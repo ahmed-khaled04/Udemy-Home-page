@@ -1,0 +1,128 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 72px;
+    padding: 0 24px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 10px -2px #1c1d1f23;
+    
+}
+
+
+.navContainer a {
+    font-size: 14px;
+    color: oklch(29.74% .0362 281.74deg);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navContainer a:hover {
+    color: #5624d0;
+}
+
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #a435f0;
+    border-radius: 999px;
+    padding: 10px 16px;
+    width: 420px;
+    transition: box-shadow 0.2s ease;
+}
+
+.searchContainer:hover {
+    box-shadow: 0px 0px 0px 4px rgba(164, 53, 240, 0.15);
+}
+
+.searchContainer svg {
+    color: #6a6f73;
+}
+
+.searchText input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    
+}
+
+
+.cartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartContainer svg {
+    cursor: pointer;
+}
+
+.cartContainer svg:hover {
+    color: #5624d0;
+}
+
+
+.loginBtn {
+    background: white;
+    color: oklch(48.41% 0.2342 293.93deg);
+    border: 1px solid oklch(48.41% 0.2342 293.93deg);
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    height: 40px;
+}
+
+.loginBtn:hover {
+    background: oklch(48.307% 0.23427 293.533 / 0.062);
+}
+
+.signupBtn {
+    background: oklch(48.41% 0.2342 293.93deg);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    height: 40px;
+}
+
+.signupBtn:hover {
+    background: oklch(51.479% 0.25223 293.345);
+}
+
+.iconBtn {
+    background: white;
+    border: 1px solid #1c1d1f;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.iconBtn:hover {
+    background: #f7f7f7;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
